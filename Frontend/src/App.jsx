@@ -1,9 +1,10 @@
+import Homepage from "./LandingPage/home/homepage"
 
 function App() {
 
   return (
     <>
-    <h1>Helloo</h1>
+    <Homepage></Homepage>
     </>
   )
 }

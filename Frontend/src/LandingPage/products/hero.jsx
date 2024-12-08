@@ -2,9 +2,16 @@ import React from 'react';
 
 function Hero() {
     return ( 
-        <>
-        <h1>Hero</h1>
-        </>
+        <div className='container mt-5 ' style={{textAlign:"center"}} >
+            
+            <h2 className='mb-3'>TradeIQ Products</h2>
+            <p className='fs-4 text-muted'>
+            Sleek, modern, and intuitive trading platforms
+            </p>
+            <p className='fs-6'>
+            Check out our <a href="/" style={{textDecoration:"none"}}> investment offerings<i class="fa-solid fa-arrow-right ms-2 fs-6"></i></a>
+            </p>
+        </div>
      );
 }
 

@@ -6,7 +6,7 @@ function Hero() {
         
         <div className='row '>
 
-            <div className='col-12' style={{textAlign:"center"}}>
+            <div className='col-12 mb-5' style={{textAlign:"center"}}>
 
                 <img src='/media/images/homeHero.png' style={{width:"100%"}} className='mb-3'></img>
                 <h1 className='mt-5 mb-3'>Invest In Everything </h1>

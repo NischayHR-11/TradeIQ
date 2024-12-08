@@ -6,12 +6,12 @@ function Award() {
 
             <div className='row'>
 
-                <div className='col-6 mt-5'>
+                <div className='col-md-6 mt-5'>
                 
-                <img src="/media/images/largestBroker.svg" alt=""/>
+                <img src="/media/images/largestBroker.svg" alt="" style={{width:"90%"}} className='me-5'/>
                 </div>
 
-                <div className='col-5 mt-5'>
+                <div className='col-md-5 mt-5 ms-md-5'>
                 <h2 className='mt-4'>Largest stock broker in India</h2>
                 <p className='mt-3 text-muted'>2+ million TradeIQ clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
                 <div className="row mt-4 mb-3">
@@ -43,7 +43,7 @@ function Award() {
                         </li>
                     </ul>
                 </div>
-                <img src="\media\images\pressLogos.png" alt=""  className='mt-3 mb-5'/>
+                <img src="\media\images\pressLogos.png" alt=""  className='mt-3 mb-5' style={{width:"90%"}}/>
                 </div>
 
             </div>

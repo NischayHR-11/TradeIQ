@@ -12,12 +12,12 @@ function Navbar() {
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse bg-light" id="navbarNavAltMarkup" style={{width:"100%"}}>
-                <div class="navbar-nav ms-auto">
-                    <Link class="nav-link active me-md-5 ms-sh-2" style={{width:"100%"}} aria-current="page" to="/signup">SignUp</Link>
-                    <Link class="nav-link active me-md-5" style={{width:"100%"}} to="/about">About</Link>
-                    <Link class="nav-link active me-md-5" style={{width:"100%"}} to="/products">Products</Link>
-                    <Link class="nav-link active me-md-5" style={{width:"100%"}} to="/pricing">Pricing</Link>
-                    <Link class="nav-link active me-md-5" style={{width:"100%"}} to="/support">Support</Link>
+                <div class="navbar-nav ms-auto mb-2">
+                    <Link class="nav-link active me-md-5 ms-2" style={{width:"100%"}} aria-current="page" to="/signup">SignUp</Link>
+                    <Link class="nav-link active me-md-5 ms-2" style={{width:"100%"}} to="/about">About</Link>
+                    <Link class="nav-link active me-md-5 ms-2" style={{width:"100%"}} to="/products">Products</Link>
+                    <Link class="nav-link active me-md-5 ms-2" style={{width:"100%"}} to="/pricing">Pricing</Link>
+                    <Link class="nav-link active me-md-5 ms-2" style={{width:"100%"}} to="/support">Support</Link>
                 </div>
                 </div>
             </div>

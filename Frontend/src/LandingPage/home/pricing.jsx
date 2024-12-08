@@ -6,7 +6,7 @@ function Pricing() {
 
             <div className="row ">
 
-                <div className="col-4 mt-5">
+                <div className="col-md-4 mt-5">
 
                 <h2>Unbeatable pricing</h2>
                 <p className='mt-4'>
@@ -14,10 +14,10 @@ function Pricing() {
                 </p>
                 <a href="#" style={{textDecoration:"none"}}>See pricing <i class="fa-solid fa-arrow-right ms-2"></i></a>
                 </div>
-                <div className="col-2">
+                <div className="col-md-2">
                 
                 </div>
-                <div className=" row col-6 mt-5 mb-5">
+                <div className=" row col-md-6 mt-5 mb-5">
 
                     <div className="col border p-5">
                     <p style={{fontSize:"30px"}}><i class="fa-solid fa-indian-rupee-sign"></i> 0</p>

@@ -1,9 +1,12 @@
 import React from 'react';
+import Hero from "./hero.jsx";
+import Brokerage from "./brokerage.jsx";
 
 function Pricingpage() {
     return ( 
         <>
-        <h1>PricingPage</h1>
+        <Hero></Hero>
+        <Brokerage></Brokerage>
         </>
      );
 }
